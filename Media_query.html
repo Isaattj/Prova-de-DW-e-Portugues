@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade Media Query</title>
+    <link rel="shortcut icon" href="Imagens/cachorro.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+
+<body>
+    <input type="checkbox" id="bt_menu">
+    <label for="bt_menu">&#9776;</label>
+    <nav class="menu">
+        <ul type="none" class="menu2">
+            <li><a href="Inicio.html">UTFPR</a></li>
+            <li><a href="Prof_e_alunos.html#professores">Professores</a></li>
+            <li><a href="Prof_e_alunos.html#alunas">Alunas</a></li>
+            <li><a href="Autor.html">Autor</a></li>
+            <li class="menu3"><a>Personagens</a>
+                <ul>
+                    <li><a href="Quincas_Borba.html">Quincas Borba</a></li>
+                    <li><a href="Sofia_Palha.html">Sofia Palha</a></li>
+                    <li><a href="Rubiao.html">Rubião</a></li>
+                </ul>
+            </li>
+            <li><a href="Media_query.html">Media Query</a></li>
+            <li><a href="Obra.html">Obra</a></li>
+
+        </ul>
+    </nav>
+
+    <main class="main2">
+        <h1>Media Query</h1>
+        <h2>O que é a Responsividade com o Media Query?</h2>
+
+        <p class="explicacao">A Responsividade é o fato de você conseguir acessar o site criado por meio de diversos
+            tipos de
+            dispositivos diferentes, como no celular, tablet, computador ou notbook, sem que haja uma desconfiguração da
+            página.</p>
+        <p class="explicacao">Para que essa configuração seja possível e mais simples, pode-se utilizar uma função do
+            CSS chamado "Media
+            Query", que faz com que a página seja acessível em qualquer dispositivo, sendo possível alterar as
+            propriedadas do site quando ele está com um tamanho específico.</p>
+
+        <h2>Como utilizar o Media Query?</h2>
+        <p class="explicacao">Não é difícil utilizar o Media Query, só é necessário saber estruturá-lo da maneira
+            correta e ele funcionará
+            perfeitamente.</p>
+        <p class="explicacao">Logo abaixo temos um exemplo de Media Query sendo implementado em um css de uma página.
+        </p>
+
+        <pre class="codigo">
+@media (max-width: 600px){
+    body{
+        background-color: blue;
+    }
+}
+        </pre>
+        <p class="explicacao">Esse é um exemplo simples do uso do Media Query. Nesse exemplo
+            temos:</p>
+        <p class="explicacao"><b>max-width:600px</b>
+            que serve para determinar os parâmetros em que esse Media Querry funcionará. Ou seja,
+            nesse caso ele irá funcionar quando o tamanho da tela for menor que 600px. E dentro desse <b>@media</b>
+            é possível realizar as mudanças necessárias para que a página continue configurada quando
+            aberta em outros tipos de dispositivos. No caso acima está sendo dito que quando a página estiver
+            com 600px
+            ou
+            menos, o fundo do corpo da página terá a cor azul.</p>
+        <p class="explicacao">Como se dá para perceber no exemplo acima, a principal informação necessária para
+            que o Media Query
+            funcione,
+            é passando os parâmetros de tamanho da página, e para passá-los podemos utilizar o "max-width:" e/ou
+            o
+            "min-width:" e os seus valores.</p>
+
+        <p class="explicacao">Ao utilizar o Media Query, normalmente são utilizados vários operadores lógicos,
+            como o and, not e o
+            only.
+        </p>
+
+        <p class="explicacao">Abaixo temos um vídeo que explica mais detalhadamente e na prática como implementar o
+            Media Query em um site responsivo.</p>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AltqAPZzAqo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <img class='utfpr_logo' src='Imagens/utfpr.png' alt='Logo utfpr'>
+    </footer>
+    </div>
+</body>
+
+</html>

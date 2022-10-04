@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+@font-face {
+    font-family: demo;
+    src: url('./fontes/Hintown\ DEMO.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #fbb404;
+    --cor1: #eccc75;
+    --cor2: #74540c;
+    --cor3: #9e894e;
+    --cor4: #d6caac;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Roboto Slab', serif;
+    --fonte-demo: 'demo', cursive;
+}
+
+.header ul li a{
+    font-family: var(--fonte-destaque);
+}
+
+.menu{
+    font-family: var(--fonte-destaque);
+}
+.menu1{
+    margin-top: 450px;
+    font-family: var(--fonte-destaque);
+}
+
+h1{
+    font-family: var(--fonte-demo);
+}
+
+h2{
+    font-family: var(--fonte-destaque);
+}
+
+.utfpr2 h1{
+    font-family: var(--fonte-destaque);
+}
+
+.header {
+    display: flex;
+}
+
+.lista{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 350px;
+    margin-bottom: -330px;
+}
+
+.imagem_capa {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+li a {
+    margin-top: -400px;
+    position: absolute;
+    font-size: 17px;
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+li a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border-bottom: 1px solid #74540c;
+    border-top: 1px solid #74540c;
+    padding: 10px 0;
+    display: block;
+}
+
+.main1 {
+    display: flex;
+    text-align: center;
+}
+
+.utfpr1 {
+    display: flex;
+    height: 450px;
+    width: 35%;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.utfpr_entrada {
+    width: 450px;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.utfpr2 {
+    margin-right: 20px;
+    height: 500px;
+    width: 60%;
+}
+
+p {
+    text-align: left;
+    font-family: var(--fonte-padrao);
+    font-size: 15px;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor3);
+    width: 600px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 60px;
+    background-color: var(--cor0);
+}
+
+.utfpr_logo {
+    width: 120px;
+    height: 40px;
+}
+
+.main2 {
+    display: block;
+}
+
+.main2,
+h1 {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.professor1 {
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.professor2 {
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.rafael_img {
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.rafael {
+
+    text-align: left;
+}
+
+.sandra_img {
+    border-radius: 15px;
+    height: 250px;
+    width: 360px;
+    margin-right: 20px;
+}
+
+.sandra {
+    text-align: left;
+}
+
+.aluna1 {
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.aluna2 {
+    display: flex;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.isabela_img {
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.hevellyn_img {
+    border-radius: 15px;
+    height: 320px;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.historia_machado {
+    display: flex;
+}
+
+.machado_img {
+    display: flex;
+    align-items: center;
+}
+
+.historia {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.menu {
+    width: 95%;
+    height: 60px;
+    background-color: var(--cor1);
+    margin-left: -1500px;
+    transition: all .4s;
+    position: fixed;
+    top: 10px;
+    top: 0px;
+    left: 60px;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 400px;
+}
+
+.menu li a {
+    padding: 13px;
+    padding-bottom: 23px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.menu a:hover {
+    background-color: var(--cor3);
+}
+
+
+.menu1 {
+    width: 100%;
+    height: 60px;
+    margin-left: -60px;
+    transition: all .4s;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+
+.menu1 ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 345px;
+}
+
+.menu1 li a {
+    padding: 13px;
+    padding-bottom: 23px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu1 a:hover {
+    background-color: var(--cor1);
+}
+
+#bt_menu {
+    display: none;
+}
+
+label[for='bt_menu'] {
+    padding: 5px;
+    background-color: var(--cor0);
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+label[for='bt_menu']:hover {
+    background-color: var(--cor4);
+    color: var(--cor4);
+}
+
+label[for='bt_menu'] {
+    display: block;
+}
+
+
+.menu ul {
+    position: static;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.8s;
+}
+
+.menu ul li:hover ul {
+    height: auto;
+    max-height: 200px;
+    transition: all .4s;
+    background-color: var(--cor4);
+}
+
+#bt_menu:checked~.menu {
+    margin-left: 0;
+}
+
+.obras {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.obra {
+    width: 280px;
+    height: 280px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ano {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    background-color: var(--cor0);
+    border-radius: 100%;
+    padding: 40px;
+    margin-right: 75px;
+    margin-left: 75px;
+    font-family: var(--fonte-destaque);
+    font-size: 18px;
+}
+
+.quincas_borba1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.quincas_borba2 {
+    display: flex;
+}
+
+.Quincas_Borba_img {
+    width: 250px;
+    height: 450px;
+}
+
+.Quincas_cachorro_img {
+    width: 300px;
+    height: 300px;
+}
+
+.historia1 {
+    margin-left: 10px;
+}
+
+.Rubiao_img {
+    width: 330px;
+    height: 400px;
+}
+
+.resumo {
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.lista li ul {
+    display: none;
+}
+.menu2 li ul {
+    display: none;
+}
+.menu11 li ul {
+    display: none;
+}
+
+.menu3 ul li a{
+    width: 150px;
+    padding: 13px;
+    background-color: var(--cor4);
+}
+
+.menu3 ul li{
+    margin-bottom: 28px;
+}
+
+.menu3:hover ul{
+    display: block;
+    margin-top: 60px;
+    margin-left: -40px;
+}
+
+.codigo{
+    display: flex;
+    width: 300px;
+    height: 125px;
+    background-color: #d6caac;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 500px;
+}
+
+.explicacao{
+    text-align: justify;
+    margin-right: 20px;
+}
